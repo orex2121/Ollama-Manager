@@ -7,14 +7,15 @@ This tool allows you to easily convert GGUF files to Ollama models, configure in
 ## 🚀 Key Features
 
 * **GGUF Conversion:** Convenient import of GGUF files, automatic path detection, and Modelfile generation.
-  ![Converter GGUF](http://orex)
+  
+  ![Converter GGUF](https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-1.jpg)
 * **Ollama Management:** View a list of installed models, read metadata, and delete models.
-  ![Manager Ollama](http://orex)
+  ![Manager Ollama](https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-2.jpg)
 * **Flexible Parameters:** Configure `Temperature`, `Top-K`, `Top-P`, `Repeat Penalty`, and context size (`num_ctx`) with visual activity control (checkboxes).
 * **System Prompt:** Edit and save system prompts for each model.
 * **Chat Template (Jinja → Go):** Built-in chat template converter from LM Studio format (Jinja) to Ollama format (Go).
 * **Model Store:** Built-in browser for searching and downloading models directly from [ollama.com](https://ollama.com).
-  ![Ollama Store](http://orex)
+  ![Ollama Store](https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-3.jpg)
 * **Multilingual and Themes:** Support for 7 interface languages and 4 visual themes (including "Hacker").
 
 ## 🛠 Installation and Launch
