@@ -6,30 +6,30 @@ This tool allows you to easily convert GGUF files to Ollama models, configure in
 
 ## 🚀 Key Features
 
-* **GGUF Conversion:** Convenient import of GGUF files, automatic path detection, and Modelfile generation.  
+- **GGUF Conversion:** Convenient import of GGUF files, automatic path detection, and Modelfile generation.  
 <p align="center">
   <img src="https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-1.jpg" width="400" />
 </p>
-* **Ollama Management:** View a list of installed models, read metadata, and delete models.
+- **Ollama Management:** View a list of installed models, read metadata, and delete models.
 <p align="center">
   <img src="https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-2.jpg" width="400" />
 </p>
-* **Flexible Parameters:** Configure `Temperature`, `Top-K`, `Top-P`, `Repeat Penalty`, and context size (`num_ctx`) with visual activity control (checkboxes).
-* **System Prompt:** Edit and save system prompts for each model.
-* **Chat Template (Jinja → Go):** Built-in chat template converter from LM Studio format (Jinja) to Ollama format (Go).
-* **Model Store:** Built-in browser for searching and downloading models directly from [ollama.com](https://ollama.com).
+- **Flexible Parameters:** Configure `Temperature`, `Top-K`, `Top-P`, `Repeat Penalty`, and context size (`num_ctx`) with visual activity control (checkboxes).
+- **System Prompt:** Edit and save system prompts for each model.
+- **Chat Template (Jinja → Go):** Built-in chat template converter from LM Studio format (Jinja) to Ollama format (Go).
+- **Model Store:** Built-in browser for searching and downloading models directly from [ollama.com](https://ollama.com).
 <p align="center">
   <img src="https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-3.jpg" width="400" />
 </p>
-* **Multilingual and Themes:** Support for 7 interface languages and 4 visual themes (including "Hacker").
+- **Multilingual and Themes:** Support for 7 interface languages and 4 visual themes (including "Hacker").
 
 ## 🛠 Installation and Launch
 
 ### Requirements
 
-* Installed [Ollama](https://ollama.com/).
-* Python 3.x.
-* For built-in browser support: `pip install PySide6[webengine]`.
+- Installed [Ollama](https://ollama.com/).
+- Python 3.x.
+- For built-in browser support: `pip install PySide6[webengine]`.
 
 ### Launch from Source Code
 
@@ -59,10 +59,10 @@ To create a single `.exe` file:
 
 ## 🛠 Technology Stack
 
-* **Language:** Python
-* **GUI:** PySide6 (Qt)
-* **Browser:** QtWebEngine
-* **Build:** PyInstaller
+- **Language:** Python
+- **GUI:** PySide6 (Qt)
+- **Browser:** QtWebEngine
+- **Build:** PyInstaller
 
 ## 👤 Author
 
