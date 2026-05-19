@@ -27,6 +27,7 @@ This tool allows you to easily convert GGUF files to Ollama models, configure in
 <p align="center">
   <img src="https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-3.jpg" width="400" />
 </p>
+
 - **Multilingual and Themes:** Support for 7 interface languages and 4 visual themes (including "Hacker").
 
 ## 🛠 Installation and Launch
