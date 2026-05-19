@@ -1,0 +1,9 @@
+{
+    "last_path": "Q:/LLM/tencent/HY-MT1.5-1.8B-GGUF/HY-MT1.5-1.8B-Q4_K_M.gguf",
+    "system_prompt": "You are a translator. Your only task is to receive the text and translate it into the target language. You are very precise and accurate in translation.",
+    "template": "{{ if .System }}{% set loop_messages = messages[1:] %}{% set system_message = messages[0]['content'] %}<\uff5chy_begin\u2581of\u2581sentence\uff5c>{{ .System }}<\uff5chy_place\u2581holder\u2581no\u25813\uff5c>{{ end }}{{ if .Prompt }}<\uff5chy_User\uff5c>{{ .Prompt }}{{ end }}<\uff5chy_Assistant\uff5c>",
+    "jinja_template": "{% if messages[0]['role'] == 'system' %}{% set loop_messages = messages[1:] %}{% set system_message = messages[0]['content'] %}<\uff5chy_begin\u2581of\u2581sentence\uff5c>{{ system_message }}<\uff5chy_place\u2581holder\u2581no\u25813\uff5c>{% else %}{% set loop_messages = messages %}<\uff5chy_begin\u2581of\u2581sentence\uff5c>{% endif %}{% for message in loop_messages %}{% if message['role'] == 'user' %}<\uff5chy_User\uff5c>{{ message['content'] }}{% elif message['role'] == 'assistant' %}<\uff5chy_Assistant\uff5c>{{ message['content'] }}<\uff5chy_place\u2581holder\u2581no\u25812\uff5c>{% endif %}{% endfor %}{% if add_generation_prompt %}<\uff5chy_Assistant\uff5c>{% else %}<\uff5chy_place\u2581holder\u2581no\u25818\uff5c>{% endif %}",
+    "stop_tokens": "",
+    "language": "en",
+    "theme": "light"
+}
