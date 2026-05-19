@@ -19,8 +19,11 @@ This tool allows you to easily convert GGUF files to Ollama models, configure in
 - **Flexible Parameters:** Configure `Temperature`, `Top-K`, `Top-P`, `Repeat Penalty`, and context size (`num_ctx`) with visual activity control (checkboxes).
   
 - **System Prompt:** Edit and save system prompts for each model.
+  
 - **Chat Template (Jinja → Go):** Built-in chat template converter from LM Studio format (Jinja) to Ollama format (Go).
+ 
 - **Model Store:** Built-in browser for searching and downloading models directly from [ollama.com](https://ollama.com).
+
 <p align="center">
   <img src="https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-3.jpg" width="400" />
 </p>
