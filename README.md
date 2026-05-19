@@ -8,7 +8,7 @@ This tool allows you to easily convert GGUF files to Ollama models, configure in
 
 * **GGUF Conversion:** Convenient import of GGUF files, automatic path detection, and Modelfile generation.
   
-  ![Converter GGUF](https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-1.jpg)
+  <img src="https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-1.jpg" width="400" />
 * **Ollama Management:** View a list of installed models, read metadata, and delete models.
   ![Manager Ollama](https://github.com/orex2121/Ollama-Manager/blob/main/Scrinshots/Scrinshot-2.jpg)
 * **Flexible Parameters:** Configure `Temperature`, `Top-K`, `Top-P`, `Repeat Penalty`, and context size (`num_ctx`) with visual activity control (checkboxes).
